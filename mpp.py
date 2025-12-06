@@ -51,7 +51,7 @@ with open("mpp.pkl", "rb") as f:
 # --------------------------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"E:\mobile_price_predictioin\cell.csv")
+    return pd.read_csv("cell.csv")
 
 df = load_data()
 
